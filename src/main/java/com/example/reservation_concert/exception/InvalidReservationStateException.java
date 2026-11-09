@@ -1,0 +1,7 @@
+package com.example.reservation_concert.exception;
+
+public class InvalidReservationStateException extends RuntimeException {
+    public InvalidReservationStateException(String message) {
+        super(message);
+    }
+}
